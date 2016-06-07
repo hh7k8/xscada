@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmi:id="_rDMQ8G-bEeWPYPfeBFuzvw" elementId="org.eclipse.e4.ide.application" bindingContexts="_rDM4CG-bEeWPYPfeBFuzvw">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_rDM4AG-bEeWPYPfeBFuzvw" label="MyE4Project" width="500" height="400">
+    <children xsi:type="advanced:PerspectiveStack" xmi:id="_CV00gG-dEeWPYPfeBFuzvw" elementId="mye4project.perspectivestack.0">
+      <children xsi:type="advanced:Perspective" xmi:id="_iqn38G-lEeWPYPfeBFuzvw" elementId="mye4project.perspective.0">
+        <children xsi:type="basic:PartSashContainer" xmi:id="_1bhjUHEzEeWvKL2PHt7yBw" elementId="mye4project.partsashcontainer.0">
+          <children xsi:type="basic:PartStack" xmi:id="_Fn8uoHE0EeWvKL2PHt7yBw" elementId="mye4project.partstack.0">
+            <children xsi:type="basic:Part" xmi:id="_Gg8MIHE0EeWvKL2PHt7yBw" elementId="mye4project.part.part1" contributionURI="bundleclass://MyE4Project/myE4Package.ChartApp" label="Label 1" iconURI="platform:/plugin/MyE4Project/icons/sample.png" closeable="true">
+              <properties key="key1" value="value1"/>
+              <properties key="key2" value="value2"/>
+            </children>
+            <children xsi:type="basic:Part" xmi:id="_Mv7d8HE0EeWvKL2PHt7yBw" elementId="mye4project.part.part2" contributionURI="bundleclass://MyE4Project/myE4Package.ChartApp" label="Label 2" closeable="true">
+              <properties key="key1" value="key1"/>
+            </children>
+          </children>
+          <children xsi:type="basic:PartStack" xmi:id="_JLg8AHE0EeWvKL2PHt7yBw" elementId="mye4project.partstack.1">
+            <children xsi:type="basic:Part" xmi:id="_KaGPAHE0EeWvKL2PHt7yBw" elementId="mye4project.part.part3" contributionURI="bundleclass://MyE4Project/myE4Package.E4test" label="Label 3">
+              <variables>suction</variables>
+              <variables>discharge</variables>
+              <properties key="y-axis" value="Pressure"/>
+              <properties key="namespace prefix" value="pipe1/hardisty/pressure"/>
+              <properties key="title" value="Pipe1 Hardisty"/>
+            </children>
+            <children xsi:type="basic:Part" xmi:id="_NSL2cHE0EeWvKL2PHt7yBw" elementId="mye4project.part.part4" contributionURI="bundleclass://MyE4Project/myE4Package.E4test" label="Label 4">
+              <properties key="key2" value="key2"/>
+            </children>
+          </children>
+        </children>
+      </children>
+    </children>
+  </children>
+  <rootContext xmi:id="_rDM4CG-bEeWPYPfeBFuzvw" elementId="org.eclipse.ui.contexts.dialogAndWindow" name="In Dialog and Windows">
+    <children xmi:id="_rDM4CW-bEeWPYPfeBFuzvw" elementId="org.eclipse.ui.contexts.window" name="In Windows"/>
+    <children xmi:id="_rDM4Cm-bEeWPYPfeBFuzvw" elementId="org.eclipse.ui.contexts.dialog" name="In Dialogs"/>
+  </rootContext>
+  <addons xmi:id="_rDM4AW-bEeWPYPfeBFuzvw" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
+  <addons xmi:id="_rDM4Am-bEeWPYPfeBFuzvw" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
+  <addons xmi:id="_rDM4A2-bEeWPYPfeBFuzvw" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
+  <addons xmi:id="_rDM4BG-bEeWPYPfeBFuzvw" elementId="org.eclipse.e4.ui.workbench.commands.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.CommandProcessingAddon"/>
+  <addons xmi:id="_rDM4BW-bEeWPYPfeBFuzvw" elementId="org.eclipse.e4.ui.workbench.handler.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
+  <addons xmi:id="_rDM4Bm-bEeWPYPfeBFuzvw" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
+  <addons xmi:id="_rDM4B2-bEeWPYPfeBFuzvw" elementId="org.eclipse.e4.ui.workbench.bindings.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.swt/org.eclipse.e4.ui.workbench.swt.util.BindingProcessingAddon"/>
+  <addons xmi:id="_P0Y_YHEyEeWvKL2PHt7yBw" elementId="MinMax Addon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon"/>
+  <addons xmi:id="_P0Y_YXEyEeWvKL2PHt7yBw" elementId="DnD Addon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.dndaddon.DnDAddon"/>
+  <addons xmi:id="_P0ZmcHEyEeWvKL2PHt7yBw" elementId="Cleanup Addon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.cleanupaddon.CleanupAddon"/>
+</application:Application>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmi:id="_hJn44G-dEeWPYPfeBFuzvw">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_kz_R0G-dEeWPYPfeBFuzvw" parentElementId="mye4project.perspectivestack.0">
+    <elements xsi:type="advanced:Perspective" xmi:id="_OGbNYG-gEeWPYPfeBFuzvw" elementId="mye4project.perspective.0">
+      <children xsi:type="basic:PartSashContainer" xmi:id="_f2t_MG-gEeWPYPfeBFuzvw" elementId="mye4project.partsashcontainer.0" horizontal="true">
+        <children xsi:type="basic:PartStack" xmi:id="_jNLksG-gEeWPYPfeBFuzvw" elementId="mye4project.partstack.0">
+          <children xsi:type="basic:Part" xmi:id="_kcEZsG-gEeWPYPfeBFuzvw" elementId="mye4project.part.part1" label="Part 1"/>
+          <children xsi:type="basic:Part" xmi:id="_lECYoG-gEeWPYPfeBFuzvw" elementId="mye4project.part.part2" label="Part 2"/>
+        </children>
+        <children xsi:type="basic:PartStack" xmi:id="_gWrcMG-hEeWPYPfeBFuzvw" elementId="mye4project.partstack.1">
+          <children xsi:type="basic:Part" xmi:id="_heKBoG-hEeWPYPfeBFuzvw" elementId="mye4project.part.part3" label="Part 3"/>
+          <children xsi:type="basic:Part" xmi:id="_jPhRkG-hEeWPYPfeBFuzvw" elementId="mye4project.part.part4" label="Part 4"/>
+        </children>
+      </children>
+    </elements>
+  </fragments>
+</fragment:ModelFragments>
