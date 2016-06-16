@@ -32,7 +32,7 @@ public class ChartApp {
 	@PostConstruct
 	void initUI(BorderPane pane) {
 		legendItem = new String[6];
-		legendItem[0] = "suction";
+		legendItem[0] = "suction ";
 		legendItem[1] = "discharge";
 		legendItem[2] = "air";
 		legendItem[3] = "water";
