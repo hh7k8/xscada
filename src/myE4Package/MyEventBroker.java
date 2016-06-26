@@ -24,15 +24,14 @@ public class MyEventBroker {
 		public class NonUIThread extends Thread {
 			public void run() {
 				while (true) {
+					boolean wasDispatchedSuccessfully = eventBroker.post(MyEventConstants.TOPIC_TODO_NEW, 12);
+					System.out.println("post result " + wasDispatchedSuccessfully);
 					try {
 						TimeUnit.SECONDS.sleep(5);
 					} catch(InterruptedException ex) {
 						System.out.println("Exception on sleep: " + ex);
 					}
-					boolean wasDispatchedSuccessfully = eventBroker.post(MyEventConstants.TOPIC_TODO_NEW, "text");
-					System.out.println("post result " + wasDispatchedSuccessfully);
-				}
-				
+ 				}				
 			}
  		}
 }
