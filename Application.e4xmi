@@ -21,7 +21,7 @@
               <properties key="namespace prefix" value="pipe1/hardisty/pressure"/>
               <properties key="title" value="Pipe1 Hardisty"/>
             </children>
-            <children xsi:type="basic:Part" xmi:id="_NSL2cHE0EeWvKL2PHt7yBw" elementId="mye4project.part.part4" contributionURI="bundleclass://MyE4Project/myE4Package.E4test" label="Label 4">
+            <children xsi:type="basic:Part" xmi:id="_NSL2cHE0EeWvKL2PHt7yBw" elementId="mye4project.part.part4" contributionURI="bundleclass://MyE4Project/myE4Package.MyEventBroker" label="Label 4">
               <properties key="key2" value="key2"/>
             </children>
           </children>
