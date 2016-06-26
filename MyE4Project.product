@@ -97,6 +97,7 @@
       <plugin id="org.eclipse.equinox.registry"/>
       <plugin id="org.eclipse.equinox.util"/>
       <plugin id="org.eclipse.fx.core"/>
+      <plugin id="org.eclipse.fx.osgi" fragment="true"/>
       <plugin id="org.eclipse.fx.ui.di.interopt"/>
       <plugin id="org.eclipse.jdt.annotation"/>
       <plugin id="org.eclipse.jface"/>
