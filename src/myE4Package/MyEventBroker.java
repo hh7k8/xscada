@@ -24,7 +24,7 @@ public class MyEventBroker {
 		public class NonUIThread extends Thread {
 			public void run() {
 				while (true) {
-					boolean wasDispatchedSuccessfully = eventBroker.post(MyEventConstants.TOPIC_TODO_NEW, 12);
+					boolean wasDispatchedSuccessfully = eventBroker.post(MyEventConstants.TOPIC_TODO_NEW, "test");
 					System.out.println("post result " + wasDispatchedSuccessfully);
 					try {
 						TimeUnit.SECONDS.sleep(5);
