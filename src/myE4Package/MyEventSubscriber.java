@@ -1,16 +1,23 @@
 package myE4Package;
 
-import java.util.function.Consumer;
-
 import javax.annotation.PostConstruct;
 import javax.inject.Inject;
 
+import org.eclipse.e4.core.di.annotations.Optional;
 import org.eclipse.e4.core.services.events.IEventBroker;
-import org.eclipse.swt.widgets.Event;
 
 public class MyEventSubscriber {
 	@Inject
-	private static IEventBroker eventBroker;
+	private IEventBroker eventBroker;
+
+/*
+	code from bottom of http://www.vogella.com/tutorials/Eclipse4EventSystem/article.html
+
+	@Inject @Optional
+	public void getEvent(@EventTopic(MyEventConstants.TOPIC_TODO_NEW) String test)) {
+		System.out.println(test);
+	}
+*/
 	
 //	@Inject @Optional
 //	void myEventHandler(@UIEventTopic(MyEventConstants.TOPIC_TODO_NEW) String payload) {

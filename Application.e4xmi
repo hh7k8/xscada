@@ -3,7 +3,7 @@
   <children xsi:type="basic:TrimmedWindow" xmi:id="_rDM4AG-bEeWPYPfeBFuzvw" label="MyE4Project" width="500" height="400">
     <children xsi:type="advanced:PerspectiveStack" xmi:id="_CV00gG-dEeWPYPfeBFuzvw" elementId="mye4project.perspectivestack.0">
       <children xsi:type="advanced:Perspective" xmi:id="_iqn38G-lEeWPYPfeBFuzvw" elementId="mye4project.perspective.0">
-        <children xsi:type="basic:PartSashContainer" xmi:id="_1bhjUHEzEeWvKL2PHt7yBw" elementId="mye4project.partsashcontainer.0">
+        <children xsi:type="basic:PartSashContainer" xmi:id="_1bhjUHEzEeWvKL2PHt7yBw" elementId="mye4project.partsashcontainer.0" selectedElement="_JLg8AHE0EeWvKL2PHt7yBw">
           <children xsi:type="basic:PartStack" xmi:id="_Fn8uoHE0EeWvKL2PHt7yBw" elementId="mye4project.partstack.0">
             <children xsi:type="basic:Part" xmi:id="_Gg8MIHE0EeWvKL2PHt7yBw" elementId="mye4project.part.part1" contributionURI="bundleclass://MyE4Project/myE4Package.ChartApp" label="Label 1" iconURI="platform:/plugin/MyE4Project/icons/sample.png" closeable="true">
               <properties key="key1" value="value1"/>
@@ -26,6 +26,7 @@
             </children>
           </children>
         </children>
+        <children xsi:type="advanced:Area" xmi:id="_9sBoYEFREeaZu4io55hvYw" elementId="mye4project.area.0" label="area1" iconURI="platform:/plugin/MyE4Project/icons/save_edit.png"/>
       </children>
     </children>
   </children>
@@ -33,6 +34,7 @@
     <children xmi:id="_rDM4CW-bEeWPYPfeBFuzvw" elementId="org.eclipse.ui.contexts.window" name="In Windows"/>
     <children xmi:id="_rDM4Cm-bEeWPYPfeBFuzvw" elementId="org.eclipse.ui.contexts.dialog" name="In Dialogs"/>
   </rootContext>
+  <descriptors xmi:id="_FFeEsEFeEeaZu4io55hvYw" elementId="mye4project.partdescriptor.0"/>
   <addons xmi:id="_rDM4AW-bEeWPYPfeBFuzvw" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
   <addons xmi:id="_rDM4Am-bEeWPYPfeBFuzvw" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
   <addons xmi:id="_rDM4A2-bEeWPYPfeBFuzvw" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
